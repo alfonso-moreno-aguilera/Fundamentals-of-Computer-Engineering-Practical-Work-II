@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>How to contact me</title>
-        <style>
-            
-        </style>
+        <!-- Basic -->
+         <meta charset="utf-8" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Mobile Metas -->
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Site Metas -->
+          <meta name="keywords" content="HTML, CSS, Informatic Engineer, Practical Work" />
+          <meta name="description" content="A webpage for showcasing the adquired knowledge in the practical work II" />
+          <meta name="author" content="Alfonso Moreno Aguilera" />
+          <title>How to contact me</title>
     </head>
     <body>
+        <header class="container">
+            <div class="header-content">
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="./about.html">About me</a>
+                    <a href="./contact.html" class="active">Contact</a>
+                    <a href="./degree.html">Informatic Engineering</a>
+                    <a href="./net.html">Other students proyect</a>
+                    <a href="./topic.html">Other interests</a>
+                </nav>
+            </div>
+        </header>
+        <main class="container">
+            <h1>FORM:</h1>
+            <form>
         
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" placeholder="Email">
+
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" placeholder="Destinatary">
+
+                <label for="cc">CC:</label>
+                <input type="text" id="cc" name="cc" placeholder="Copy (Optional)">
+
+                <label for="bcc">BCC:</label>
+                <input type="text" id="bcc" name="bcc" placeholder="Hidden copy (Optional)">
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="10" placeholder="Write your message here"></textarea>
+               <button type="submit">Enviar</button>
+            </form>
+        </main>
     </body>
 </html>
