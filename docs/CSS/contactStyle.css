@@ -1,25 +1,56 @@
 
-button
+body 
 {
---glow-color: rgb(217, 176, 255);
---glow-spread-color: rgba(191, 123, 255, 0.781);
---enhanced-glow-color: rgb(231, 206, 255);
---btn-color: rgb(100, 61, 136);
+background: rgb(25, 4, 59);
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+
+.container 
+{
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+}
+
+header
+{
+background-color: #000a1c;
+color: white;
+padding: 20px 0;
+text-align: center;
+}
+.header-content
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+button 
+{
+--glow-color: rgb(176, 223, 255);
+--glow-spread-color: rgba(123, 163, 255, 0.781);
+--enhanced-glow-color: rgb(209, 206, 255);
+--btn-color: rgb(61, 72, 136);
 border: 0.25em solid var(--glow-color);
 padding: 1em 3em;
 color: var(--glow-color);
 font-size: 15px;
 font-weight: bold;
+cursor: pointer;
 background-color: var(--btn-color);
 border-radius: 1em;
 outline: none;
 box-shadow: 0 0 1em 0.25em var(--glow-color),
-            0 0 4em 1em var(--glow-spread-color),
-inset 0 0 0.75em 025em var(--glow-color);
+0 0 4em 1em var(--glow-spread-color),
+inset 0 0 0.74em 0.25em var(--glow-color);
 text-shadow: 0 0 0.5em var(--glow-color);
 position: relative;
 transition: all 0.3s;
 }
+
 button::after 
 {
 pointer-events: none;
@@ -34,17 +65,19 @@ filter: blur(2em);
 opacity: 0.7;
 transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
 }
+
 button:hover 
 {
 color: var(--btn-color);
 background-color: var(--glow-color);
 box-shadow: 0 0 1em 0.25em var(--glow-color),
-            0 0 4em 2em var(--glow-spread-color),
+0 0 4em 2em var(--glow-spread-color),
 inset 0 0 0.75em 0.25em var(--glow-color);
 }
-button:active 
+
+button:active
 {
 box-shadow: 0 0 0.6em 0.25em var(--glow-color),
-            0 0 2.5em 2em var(--glow-spread-color),
+0 0 2.5em 2em var(--glow-spread-color),
 inset 0 0 0.5em 0.25em var(--glow-color);
 }
