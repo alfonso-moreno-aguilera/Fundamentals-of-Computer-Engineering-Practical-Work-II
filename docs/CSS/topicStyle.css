@@ -1,0 +1,24 @@
+main
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+.content
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+main a
+{
+color: #00bcd4;
+}
+
+footer
+{
+color: white;
+}
