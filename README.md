@@ -20,11 +20,16 @@ In this work, I will do a website that includes seven different html files conec
 - Started adding CSS to the website (Style to the contact file).
 
 - I deleted almost everything of the degree file and made it again, I also gave some styles to some files and finished the topic and the net page.
+
+- Added the global style for all the web and created an individual css for each html to complement the global one.
 ## Problems during the development
 - First problem was thinking about the structure I wanted to give to my website, the practical work give us a structure to follow, but I my problem was how to start writing the code, the style I wanted to give and the information I was going to put. Also I revised the theory.
 
 - I started the CSS but I saw I needed to structure better some parts of the html files because I started mixing things, I tried fixing it. 
 
-- I had to almost start from the beggining the degree file because I forgot about the category, so I erased almost everythings and done a table with the subjects and the category
+- I had to almost start from the beggining the degree file because I forgot about the category, so I erased almost everythings and done a table with the subjects and the category.
+
+- Had problems with the css to move some dots to the correct place.
+
 ## Conclusion
 This project help me to apply all my knowledge of this course into practice letting us gain practical experience in this type of tools, the project let space to be creative and helped having a better understanding about HTML and CSS, helping me to create a functional well-structured website.
