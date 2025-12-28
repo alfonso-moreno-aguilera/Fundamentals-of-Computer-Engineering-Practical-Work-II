@@ -16,7 +16,9 @@
 
 - Started at 17:00 and finished adding information at 21:37 of the fce file, including the tables of the blocks and units.
 
+- Started adding CSS to the website (Style to the contact file).
 ## Problems during the development
 - First problem was thinking about the structure I wanted to give to my website, the practical work give us a structure to follow, but I my problem was how to start writing the code, the style I wanted to give and the information I was going to put. Also I revised the theory.
 
+- I started the CSS but I saw I needed to structure better some parts of the html files because I started mixing things, I tried fixing it. 
 ## Conclusion
