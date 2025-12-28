@@ -9,7 +9,7 @@ flex-direction: column;
 align-items: center;
 }
 
-.header-container
+.container
 {
 background: rgb(33, 0, 77);
 max-width: 1000px;
@@ -26,6 +26,31 @@ text-align: center;
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
+.content
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+main a
+{
+color: #00bcd4;
+}
+.ul
+{
+list-style-position: inside;
+text-align: center;
+padding-left: 0;
+list-style-type: disc;
+}
+
+.container-li
+{
+margin-bottom: 10px;
+line-height: 1.5;
 }
 
 nav
@@ -52,4 +77,14 @@ nav a.active
 {
 background-color: rgb(0, 44, 97);
 color:rgb(255, 255, 255);
+}
+
+footer
+{
+color: white;
+}
+
+footer a
+{
+color: #00bcd4;
 }
